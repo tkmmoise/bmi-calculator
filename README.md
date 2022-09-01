@@ -65,7 +65,7 @@ Vous pouvez voir la démo [ici](https://bmi-calculator-6e3e9.web.app/) 👈👈
 
 ## :rocket: Technologies ##
 
-The following tools were used in this project:
+Les outils et technologies suivants ont été utilisés dans ce projet :
 
 - [React](https://pt-br.reactjs.org/)
 - [JavaScript](https://www.javascript.com/)
