@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img src="./.github/bmi_calculator_login_page.png" alt="Bmi Calculator" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  &#xa0;
 
-## Available Scripts
+  <a href="https://bmi-calculator-6e3e9.web.app/">Demo</a>
+</div>
 
-In the project directory, you can run:
+<h1 align="center">Bmi Calculator</h1>
 
-### `npm start`
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/tkmmoise/bmi-calculator?color=00a7e1">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/tkmmoise/bmi-calculator?color=00a7e1">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tkmmoise/bmi-calculator?color=00a7e1">
 
-### `npm test`
+  <img alt="License" src="https://img.shields.io/github/license/tkmmoise/bmi-calculator?color=%2300a7e1">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/tkmmoise/bmi-calculator?color=56BEB8" /> -->
 
-### `npm run build`
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/tkmmoise/bmi-calculator?color=56BEB8" /> -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/tkmmoise/bmi-calculator?color=56BEB8" /> -->
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- Status -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- <h4 align="center"> 
+	🚧  Ulboard_mobile 🚀 Under construction...  🚧
+</h4> 
 
-### `npm run eject`
+<hr> -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center">
+  <a href="#dart-about">Description</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Fonctionnalités</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Conditions</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Commencer</a> &#xa0; | &#xa0;
+  <a href="#memo-license">Licence</a> &#xa0; | &#xa0;
+  <a href="https://github.com/tkmmoise" target="_blank">Auteur</a>
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :dart: Description ##
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Je cherchais toute idée pour pratiquer un peu react avec Firebase, et en écumant un peu sur internet, une idée m'est venue.
 
-## Learn More
+J'ai décidé de créer une application de calcul d'indice de masse corporelle (IMC), en anglais communément appelé BMI.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+L'application est simple, premièrement on a une authentification, ensuite lorsque l'utilisateur est connecté, il y a une entree pour mettre le poids et une autre entree pour mettre la taille, l'application t'affiche ton indice de masse corporelle correspondant avec la date.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+L'application conserve un historique des indices de masses corporelles calculées.
 
-### Code Splitting
+Vous pouvez voir la démo [ici](https://bmi-calculator-6e3e9.web.app/) 👈👈
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :sparkles: Fonctionnalités ##
 
-### Analyzing the Bundle Size
+:heavy_check_mark: Authentification par email et mot de passe;\
+:heavy_check_mark: Calcul de l'IMC;\
+:heavy_check_mark: Historique des IMCs calculées;\
+:heavy_check_mark: Application responsive;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## :rocket: Technologies ##
 
-### Making a Progressive Web App
+The following tools were used in this project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [React](https://pt-br.reactjs.org/)
+- [JavaScript](https://www.javascript.com/)
+- [Firebase](https://console.firebase.google.com/)
+- [Redux](https://redux.js.org/)
 
-### Advanced Configuration
+## :white_check_mark: Conditions ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Avant de démarrer :checkered_flag:, vous devez avoir installé [Git](https://git-scm.com) et [Node](https://nodejs.org/en/). Vous devez créer un project sur [Firebase](https://console.firebase.google.com/) et configurer le fichier .env.
 
-### Deployment
+## :checkered_flag: Commencer ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+# Cloner ce projet
+$ git clone https://github.com/tkmmoise/bmi-calculator
 
-### `npm run build` fails to minify
+# Accéder
+$ cd bmi-calculator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Installer les dépendances
+$ npm install
+
+# Exécuter le projet
+$ npx react-native start
+
+```
+
+## :memo: Licence ##
+
+Ce projet est sous licence du MIT. Pour plus de détails, consultez le fichier [LICENSE](LICENSE.md).
+
+
+Coder avec :heart: par <a href="https://github.com/tkmmoise" target="_blank">Moses</a>
+
+&#xa0;
+
+<a href="#top">Haut de la page</a>
